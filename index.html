@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehru Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+            font-family: 'Baloo Bhai 2', cursive;
+           background-size: 100%;
+           background-repeat: no-repeat;
+          
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 6px;
+            color: white;
+            font-size: 19px;
+        }
+        .left img{
+            width: 87px;
+            filter: invert(100%);
+            margin: 0px 15px -11px 11px;
+        }
+        .mid{
+            display: block;
+            width: 47%;
+            margin: 2px auto;
+           
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            color: white;
+        }
+        .navbar{
+            display: inline-block;
+           
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding:34px 23px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: white;
+            text-decoration: underline;
+            padding:34px 23px;
+            color: gray;
+        }
+.btn{
+     margin: 0px 9px;
+     background-color: #531e99;
+     color: white;
+     padding: 4px 12px;
+     border-radius: 10px;
+     font-size: 20px;
+     border: 2px solid yellow;
+     cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    border: 2px solid green;
+    color: white;
+    margin: 97px 33px;
+    padding: 15px 18px;
+    width: 33%;
+    border-radius: 14px;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            
+<img src="img/gym.png" alt="image is not available">
+<div>Nehru Fitness </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+<button class="btn">Call us now</button>
+<button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        I am a container
+    </div>
+</body>
+</html>
